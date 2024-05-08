@@ -1,0 +1,55 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+
+.menu-bar ul{
+	background: rgb(182,178,237);
+	text-align: center;
+}
+.menu-bar ul li{
+	display: inline-flex;
+	list-style: none;
+	color: black;
+}
+.menu-bar ul li{
+	width: 170px;
+	margin: 15px;
+	padding: 8px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color:black;
+}
+.active, .menu-bar ul li:hover
+{
+	background: white;
+	border-radius:3px;
+    
+}
+.text{
+	font-family:cursive;
+	font-size: 40px;
+	color: rgb(244,122,32);
+}
+.h{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+
+}
+.slide{
+	background-color:rgb(183, 100, 237);
+	width: 400px;
+	height: 587px;
+	position: absolute;
+	top: 64px;
+}
